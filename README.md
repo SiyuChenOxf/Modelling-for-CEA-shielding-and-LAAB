@@ -4,3 +4,6 @@ Modelling for cost effectiveness of shielding and LAAB for immunocompromised peo
 
 ## Association analysis
 ## Senario analysis
+
+## Individual risk group analysis
+Ref: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext#tbl2
