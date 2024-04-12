@@ -16,7 +16,7 @@ Modelling for cost effectiveness of shielding and LAAB amongst immunocompromised
    + High fatigue scenario:'LAAB_PrEP_outputs_s3.csv'
  * scripts:'LAAB_PrEP_script.R'
    
-## Important parameters
+## Important parameters analysis
  * inputs:
    + time horizon is 2 years: 'LAAB_PrEP_template_th2.csv'
    + time horizon is 5 years: 'LAAB_PrEP_template_th5.csv'
