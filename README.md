@@ -39,4 +39,24 @@ Modelling for cost effectiveness of shielding and LAAB amongst immunocompromised
 
    
 ## Individual risk group analysis
+* inputs:
+   + advanced HIV group: 'LAAB_PrEP_template_advancedHIV.csv'
+   + end stage cancer: 'LAAB_PrEP_template_endstage.csv'
+   + organ transplant:'LAAB_PrEP_template_organtrans.csv'
+   + high-dose, long-term moderate-dose corticosteroids: 'LAAB_PrEP_template_highdose.csv'
+   + end-stage kidney disease: 'LAAB_PrEP_template_endstage.csv'
+   + primary immunodeficiency: 'LAAB_PrEP_template_primaryimmu.csv'
+   + secondary immunodeficiency: 'LAAB_PrEP_template_secondaryimmo.csv'
+   + solid tumour ≤5 years prior: 'LAAB_PrEP_template_solidtum.csv'
+ * outputs:
+   + advanced HIV group: 'CEA_OUTPUTS_advancedHIV.csv'
+   + end stage cancer: 'CEA_OUTPUTS_endstage.csv'
+   + organ transplant:'CEA_OUTPUTS_organtrans.csv'
+   + high-dose, long-term moderate-dose corticosteroids: 'CEA_OUTPUTS.csv'
+   + end-stage kidney disease: 'CEA_OUTPUTS.csv'
+   + primary immunodeficiency: 'CEA_OUTPUTS.csv'
+   + secondary immunodeficiency: 'CEA_OUTPUTS.csv'
+   + solid tumour ≤5 years prior: 'CEA_OUTPUTS.csv'
+ * scripts:'LAAB_PrEP_script.R'
+
 Ref: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext#tbl2
