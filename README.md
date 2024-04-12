@@ -33,10 +33,6 @@ Modelling for cost effectiveness of shielding and LAAB amongst immunocompromised
  * outputs:
    + time horizon is 10 years:'LAAB_PrEP_outputs.csv'
  * scripts:'LAAB_PrEP_script.R'
-
-## Plot
- * scripts:'plotting_without_running_models.R'
-
    
 ## Individual risk group analysis
 * inputs:
@@ -58,5 +54,9 @@ Modelling for cost effectiveness of shielding and LAAB amongst immunocompromised
    + secondary immunodeficiency: 'CEA_OUTPUTS.csv'
    + solid tumour ≤5 years prior: 'CEA_OUTPUTS.csv'
  * scripts:'LAAB_PrEP_script.R'
+
+## Plot
+ * scripts:'plotting_without_running_models.R'
+
 
 Ref: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext#tbl2
