@@ -1,7 +1,7 @@
 # Modelling cost-effectivenss of LAAB-PrEP vs. shielding 
 Modelling for cost effectiveness of shielding and LAAB-PrEP amongst immunocompromised people
-* Intervention group: LAAB-PrEP + different % of shielding
-* Comparator group:100% shielding 
+* Intervention group: LAAB-PrEP + certain % of shielding
+* Comparator group: shielding 
 ## Cost-effectivness analysis based on sensitivity analysis
 We randomly sampled all parameters from big ranges listed in the template and generated a big matrix containing the corresponding inputs and economic & life-year outputs. We then plotted the cost-effectivness plane and willingness-to-pay curve. 
  * inputs: 'LAAB_PrEP_template.csv'
@@ -9,7 +9,7 @@ We randomly sampled all parameters from big ranges listed in the template and ge
  * scripts: 'LAAB_PrEP_script.R'
 
 ## Scenario analysis
-We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: reduction in shielding due to protecton with LAAB-PrEP 
+We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: reduction in shielding due to protecton with LAAB-PrEP.
  * inputs:
    + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1.csv' where $\eta \in [0,0.25]$ and $\rho \in [0,0.25]$
    + Low fatigue and high replacement scenario: 'LAAB_PrEP_template_s2.csv' where $\eta \in [0,0.25]$ and $\rho \in [0.75,0.9]$
@@ -21,6 +21,7 @@ We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: redu
  * scripts:'LAAB_PrEP_script.R'
    
 ## Important parameters analysis
+We screened out the top 5 parameters as the most important parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively based on the correlations with life-year-gained. 
  * inputs:
    + time horizon is 2 years: 'LAAB_PrEP_template_th2.csv'
    + time horizon is 5 years: 'LAAB_PrEP_template_th5.csv'
