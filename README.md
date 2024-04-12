@@ -21,7 +21,7 @@ We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: redu
  * scripts:'LAAB_PrEP_script.R'
    
 ## Important parameters analysis
-We screened out the top 5 parameters as the most important parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively based on the correlations with life-year-gained. 
+We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively based on the correlations with life-year-gained as the most important five parameters. 
  * inputs:
    + time horizon is 2 years: 'LAAB_PrEP_template_th2.csv'
    + time horizon is 5 years: 'LAAB_PrEP_template_th5.csv'
@@ -33,6 +33,7 @@ We screened out the top 5 parameters as the most important parameters in each of
  * scripts:'LAAB_PrEP_script.R'
 
 ## Impact of incidence of hospitalisation
+We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation. 
 * inputs:
    + time horizon is 2 years: 'LAAB_PrEP_template.csv'
  * outputs:
@@ -40,6 +41,7 @@ We screened out the top 5 parameters as the most important parameters in each of
  * scripts:'LAAB_PrEP_script.R'
    
 ## Individual risk group analysis
+We parameterised eight risk groups of immunocompromised people fron INFORM study [1] listed in below templates and run the model and plotted the corresponding willingness-to-pay curves.  
 * inputs:
    + advanced HIV group: 'LAAB_PrEP_template_advancedHIV.csv'
    + end stage cancer: 'LAAB_PrEP_template_endstage.csv'
