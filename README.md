@@ -66,4 +66,4 @@ We parameterised eight risk groups of immunocompromised people fron INFORM study
  * scripts:'plotting_without_running_models.R'
 
 
-Ref: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext#tbl2
+[1] Evans, Rachael A., et al. "Impact of COVID-19 on immunocompromised populations during the Omicron era: insights from the observational population-based INFORM study." The Lancet Regional Health–Europe 35 (2023).https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext#tbl2
