@@ -1,6 +1,9 @@
 # Modelling cost-effectivenss of LAAB-PrEP vs. shielding 
-Modelling for cost effectiveness of shielding and LAAB amongst immunocompromised people
+Modelling for cost effectiveness of shielding and LAAB-PrEP amongst immunocompromised people
+* Intervention group: LAAB-PrEP + different % of shielding
+* Comparator group:100% shielding 
 ## Cost-effectivness analysis based on sensitivity analysis
+The cost-effectivness analysis for the intervention group 
  * inputs: 'LAAB_PrEP_template.csv'
  * outputs: 'LAAB_PrEP_outputs.csv'
  * scripts: 'LAAB_PrEP_script.R'
