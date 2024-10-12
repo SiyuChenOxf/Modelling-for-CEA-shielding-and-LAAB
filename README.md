@@ -32,23 +32,21 @@ We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi
 
 ## Impact of incidence of hospitalisation
 We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation. 
-* inputs:
-   + time horizon is 2 years: 'LAAB_PrEP_template.csv'
- * outputs:
-   + time horizon is 10 years:'LAAB_PrEP_outputs.csv'
- * scripts:'LAAB_PrEP_script.R'
+ * inputs:
+   + LAAB_PrEP_outputsnew.csv'
+ * scripts:'scritp_Fig3.R'
    
 ## Individual risk group analysis
 We parameterised eight risk groups of immunocompromised people fron INFORM study [1] listed in below templates and run the model and plotted the corresponding willingness-to-pay curves.  
 * inputs:
-   + advanced HIV group: 'LAAB_PrEP_template_advancedHIV.csv'
-   + end stage cancer: 'LAAB_PrEP_template_endstage.csv'
-   + organ transplant:'LAAB_PrEP_template_organtrans.csv'
-   + high-dose, long-term moderate-dose corticosteroids: 'LAAB_PrEP_template_highdose.csv'
-   + end-stage kidney disease: 'LAAB_PrEP_template_endstage.csv'
-   + primary immunodeficiency: 'LAAB_PrEP_template_primaryimmu.csv'
-   + secondary immunodeficiency: 'LAAB_PrEP_template_secondaryimmo.csv'
-   + solid tumour ≤5 years prior: 'LAAB_PrEP_template_solidtum.csv'
+   + advanced HIV group: 'LAAB_PrEP_template_advancedHIVnew.csv'
+   + end stage cancer: 'LAAB_PrEP_template_endstagenew.csv'
+   + organ transplant:'LAAB_PrEP_template_organtransnew.csv'
+   + high-dose, long-term moderate-dose corticosteroids: 'LAAB_PrEP_template_highdosenew.csv'
+   + end-stage kidney disease: 'LAAB_PrEP_template_endstagenew.csv'
+   + primary immunodeficiency: 'LAAB_PrEP_template_primaryimmunew.csv'
+   + secondary immunodeficiency: 'LAAB_PrEP_template_secondaryimmonew.csv'
+   + solid tumour ≤5 years prior: 'LAAB_PrEP_template_solidtumnew.csv'
  * outputs:
    + advanced HIV group: 'CEA_OUTPUTS_advancedHIV.csv'
    + end stage cancer: 'CEA_OUTPUTS_endstage.csv'
@@ -58,7 +56,7 @@ We parameterised eight risk groups of immunocompromised people fron INFORM study
    + primary immunodeficiency: 'CEA_OUTPUTS.csv'
    + secondary immunodeficiency: 'CEA_OUTPUTS.csv'
    + solid tumour ≤5 years prior: 'CEA_OUTPUTS.csv'
- * scripts:'LAAB_PrEP_script.R'
+ * scripts:'script_Fig3.R'
 
 ## Plot
  * scripts:'plotting_without_running_models.R'
