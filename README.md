@@ -31,10 +31,20 @@ We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi
  * scripts:'tornado_plot_nocost.R' & 'script_Fig2.R'
 
 ## Impact of incidence of hospitalisation
-We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation. 
+We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation as shown in Fig 3c. 
  * inputs:
    + LAAB_PrEP_outputsnew.csv'
  * scripts:'scritp_Fig3.R'
+
+## Impact of time horizon
+We conducted a sensitivity analysis for differen time horizon as shown in Fig 3b. 
+ * inputs:
+   + LAAB_PrEP_template.csv'
+ * outputs:
+   + LAAB_PrEP_outputs_th2new.csv'
+   + LAAB_PrEP_outputs_th5new.csv'
+   + LAAB_PrEP_outputs_th10new.csv'
+ * scripts:'LAAB_PrEP_th2.R','LAAB_PrEP_th5.R','LAAB_PrEP_th5.R' & 'scritp_Fig3.R'
    
 ## Individual risk group analysis
 We parameterised eight risk groups of immunocompromised people fron INFORM study [1] listed in below templates and run the model and plotted the corresponding willingness-to-pay curves.  
