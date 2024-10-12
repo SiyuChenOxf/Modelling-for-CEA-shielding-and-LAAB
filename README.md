@@ -7,18 +7,6 @@ We randomly sampled all parameters from big ranges listed in the template and ge
  * inputs: 'LAAB_PrEP_template.csv'
  * outputs: 'LAAB_PrEP_outputsnew.csv'
  * scripts: 'script_Fig1.R'
-
-## Scenario analysis
-We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: reduction in shielding due to protecton with LAAB-PrEP.
- * inputs:
-   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1_1.csv' where $\eta \in [0,0.15]$ and $\rho \in [0,0.1]$
-   + Low fatigue and high replacement scenario: 'LAAB_PrEP_template_s2_1.csv' where $\eta \in [0,0.1]$ and $\rho \in [0.95,1]$
-   + High fatigue scenario:'LAAB_PrEP_template_s3_1.csv' where $\eta \in [0.75,0.85]$
- * outputs:
-   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1_1new.csv'
-   + Low fatigue and high replacement scenario: 'LAAB_PrEP_outputs_s2_1new.csv'
-   + High fatigue scenario:'LAAB_PrEP_outputs_s3_1new.csv'
- * scripts:'script_Fig3.R'
    
 ## Important parameters analysis
 We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi-way sensitivity for incremental cost, incremental LYG and ICER when cost of shielding is considered and is not considered, respectively. We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively. 
@@ -41,6 +29,17 @@ Two-way sensitivity analysis
    + time horizon is 10 years: 'dataICER_min10_nocosta.rds', 'dataICER_max10_nocosta.rds', 'dataICER_mean10_nocosta.rds', 'dataCOST_min10_nocosta.rds', 'dataCOST_max10_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
  * scripts:'plot_two_way_effcos.R' & 'script_FigS7.R'
 
+## Scenario analysis
+We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: reduction in shielding due to protecton with LAAB-PrEP as shown in Fig 3a.
+ * inputs:
+   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1_1.csv' where $\eta \in [0,0.15]$ and $\rho \in [0,0.1]$
+   + Low fatigue and high replacement scenario: 'LAAB_PrEP_template_s2_1.csv' where $\eta \in [0,0.1]$ and $\rho \in [0.95,1]$
+   + High fatigue scenario:'LAAB_PrEP_template_s3_1.csv' where $\eta \in [0.75,0.85]$
+ * outputs:
+   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1_1new.csv'
+   + Low fatigue and high replacement scenario: 'LAAB_PrEP_outputs_s2_1new.csv'
+   + High fatigue scenario:'LAAB_PrEP_outputs_s3_1new.csv'
+ * scripts:'script_Fig3.R'
 ## Impact of incidence of hospitalisation
 We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation as shown in Fig 3c. 
  * inputs:
