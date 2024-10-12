@@ -28,7 +28,7 @@ We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi
    + time horizon is 2 years: 'dataICER_min2_nocosta.rds', 'dataICER_max2_nocosta.rds', 'dataICER_mean2_nocosta.rds', 'dataCOST_min2_nocosta.rds', 'dataCOST_max2_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
    + time horizon is 5 years: 'dataICER_min5_nocosta.rds', 'dataICER_max5_nocosta.rds', 'dataICER_mean5_nocosta.rds', 'dataCOST_min5_nocosta.rds', 'dataCOST_max5_nocosta.rds', 'dataCOST_mean5_nocosta.rds'
    + time horizon is 10 years: 'dataICER_min10_nocosta.rds', 'dataICER_max10_nocosta.rds', 'dataICER_mean10_nocosta.rds', 'dataCOST_min10_nocosta.rds', 'dataCOST_max10_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
- * scripts:'tornado_plot_nocost.R' & 'script_Fig2.R'
+ * scripts:'tornado_plot_nocost.R' & 'script_Fig2.R' & 'tornado_plot_withcost.R'
 
 ## Impact of incidence of hospitalisation
 We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation as shown in Fig 3c. 
