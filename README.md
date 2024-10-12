@@ -3,7 +3,7 @@ Modelling for cost effectiveness of shielding and LAAB-PrEP amongst immunocompro
 * Intervention group: LAAB-PrEP + certain % of shielding
 * Comparator group: shielding 
 ## Cost-effectivness analysis 
-We randomly sampled all parameters from big ranges listed in the template and generated a big matrix containing the corresponding inputs and economic & life-year outputs. We then plotted the cost-effectivness plane and willingness-to-pay curve as shown in Fig 1. 
+We randomly sampled all parameters from big ranges listed in the template and generated a big matrix containing the corresponding inputs and economic & life-year outputs. We then plotted the cost-effectivness plane and willingness-to-pay curve where cost of shielding is not considered as shown in Fig 1 and where cost of shielding is considered in Fig S4. 
  * inputs: 'LAAB_PrEP_template.csv'
  * outputs: 'LAAB_PrEP_outputsnew.csv'
  * scripts: 'script_Fig1.R'
