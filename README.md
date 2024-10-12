@@ -22,6 +22,8 @@ We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: redu
    
 ## Important parameters analysis
 We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi-way sensitivity for incremental cost, incremental LYG and ICER when cost of shielding is considered and is not considered, respectively. We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively. 
+
+One-way sensitivity analysis
  * outputs:
    + time horizon is 2/5/10 years: 'LAAB_PrEP_template.csv'
  * outputs:
@@ -29,6 +31,15 @@ We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi
    + time horizon is 5 years: 'dataICER_min5_nocosta.rds', 'dataICER_max5_nocosta.rds', 'dataICER_mean5_nocosta.rds', 'dataCOST_min5_nocosta.rds', 'dataCOST_max5_nocosta.rds', 'dataCOST_mean5_nocosta.rds'
    + time horizon is 10 years: 'dataICER_min10_nocosta.rds', 'dataICER_max10_nocosta.rds', 'dataICER_mean10_nocosta.rds', 'dataCOST_min10_nocosta.rds', 'dataCOST_max10_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
  * scripts:'tornado_plot_nocost.R' & 'script_Fig2.R' & 'tornado_plot_withcost.R'
+
+Two-way sensitivity analysis
+ * outputs:
+   + time horizon is 2/5/10 years: 'LAAB_PrEP_template.csv'
+ * outputs:
+   + time horizon is 2 years: 'dataICER_min2_nocosta.rds', 'dataICER_max2_nocosta.rds', 'dataICER_mean2_nocosta.rds', 'dataCOST_min2_nocosta.rds', 'dataCOST_max2_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
+   + time horizon is 5 years: 'dataICER_min5_nocosta.rds', 'dataICER_max5_nocosta.rds', 'dataICER_mean5_nocosta.rds', 'dataCOST_min5_nocosta.rds', 'dataCOST_max5_nocosta.rds', 'dataCOST_mean5_nocosta.rds'
+   + time horizon is 10 years: 'dataICER_min10_nocosta.rds', 'dataICER_max10_nocosta.rds', 'dataICER_mean10_nocosta.rds', 'dataCOST_min10_nocosta.rds', 'dataCOST_max10_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
+ * scripts:'plot_two_way_effcos.R' & 'script_FigS7.R'
 
 ## Impact of incidence of hospitalisation
 We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation as shown in Fig 3c. 
@@ -49,7 +60,7 @@ We conducted a sensitivity analysis for differen time horizon as shown in Fig 3b
  * scripts:'LAAB_PrEP_th2.R','LAAB_PrEP_th5.R','LAAB_PrEP_th5.R' & 'scritp_Fig3.R'
    
 ## Individual risk group analysis
-We parameterised eight risk groups of immunocompromised people fron INFORM study [1] listed in below templates and run the model and plotted the corresponding willingness-to-pay curves.  
+We parameterised eight risk groups of immunocompromised people fron INFORM study [1] listed in below templates and run the model and plotted the corresponding willingness-to-pay curves as shown in Fig 3d.  
 * inputs:
    + advanced HIV group: 'LAAB_PrEP_template_advancedHIVnew.csv'
    + end stage cancer: 'LAAB_PrEP_template_endstagenew.csv'
