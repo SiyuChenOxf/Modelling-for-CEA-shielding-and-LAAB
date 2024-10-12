@@ -22,7 +22,7 @@ We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: redu
    
 ## Important parameters analysis
 We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi-way sensitivity for incremental cost, incremental LYG and ICER when cost of shielding is considered and is not considered, respectively. We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively. 
- * inputs:
+ * outputs:
    + time horizon is 2/5/10 years: 'LAAB_PrEP_template.csv'
  * outputs:
    + time horizon is 2 years: 'dataICER_min2_nocosta.rds', 'dataICER_max2_nocosta.rds', 'dataICER_mean2_nocosta.rds', 'dataCOST_min2_nocosta.rds', 'dataCOST_max2_nocosta.rds', 'dataCOST_mean10_nocosta.rds'
@@ -33,6 +33,8 @@ We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi
 ## Impact of incidence of hospitalisation
 We post-analysed the modelling outputs from the big sensitivity analysis where all parameters were randdomly sampled from big ranges by plotting the willingness-to-pay curves under different intervals of incidence of hospitalisation as shown in Fig 3c. 
  * inputs:
+   + LAAB_PrEP_template.csv'
+* outputs:
    + LAAB_PrEP_outputsnew.csv'
  * scripts:'scritp_Fig3.R'
 
