@@ -11,14 +11,14 @@ We randomly sampled all parameters from big ranges listed in the template and ge
 ## Scenario analysis
 We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: reduction in shielding due to protecton with LAAB-PrEP.
  * inputs:
-   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1.csv' where $\eta \in [0,0.25]$ and $\rho \in [0,0.25]$
-   + Low fatigue and high replacement scenario: 'LAAB_PrEP_template_s2.csv' where $\eta \in [0,0.25]$ and $\rho \in [0.75,0.9]$
-   + High fatigue scenario:'LAAB_PrEP_template_s3.csv' where $\eta \in [0.75,1]$
+   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1_1.csv' where $\eta \in [0,0.15]$ and $\rho \in [0,0.1]$
+   + Low fatigue and high replacement scenario: 'LAAB_PrEP_template_s2_1.csv' where $\eta \in [0,0.1]$ and $\rho \in [0.95,1]$
+   + High fatigue scenario:'LAAB_PrEP_template_s3_1.csv' where $\eta \in [0.75,0.85]$
  * outputs:
-   + Low fatigue and low replacement scenario: 'LAAB_PrEP_outputs_s1.csv'
-   + Low fatigue and high replacement scenario: 'LAAB_PrEP_outputs_s2.csv'
-   + High fatigue scenario:'LAAB_PrEP_outputs_s3.csv'
- * scripts:'LAAB_PrEP_script.R'
+   + Low fatigue and low replacement scenario: 'LAAB_PrEP_template_s1_1new.csv'
+   + Low fatigue and high replacement scenario: 'LAAB_PrEP_outputs_s2_1new.csv'
+   + High fatigue scenario:'LAAB_PrEP_outputs_s3_1new.csv'
+ * scripts:'script_Fig3.R'
    
 ## Important parameters analysis
 We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi-way sensitivity for incremental cost, incremental LYG and ICER when cost of shielding is considered and is not considered, respectively. We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively. 
@@ -80,9 +80,6 @@ We parameterised eight risk groups of immunocompromised people fron INFORM study
    + secondary immunodeficiency: 'CEA_OUTPUTS.csv'
    + solid tumour ≤5 years prior: 'CEA_OUTPUTS.csv'
  * scripts:'script_Fig3.R'
-
-## Plot
- * scripts:'plotting_without_running_models.R'
 
 ## Reference
 [1] Evans, Rachael A., et al. "Impact of COVID-19 on immunocompromised populations during the Omicron era: insights from the observational population-based INFORM study." The Lancet Regional Health–Europe 35 (2023).https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext#tbl2](https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(23)00166-7/fulltext)
