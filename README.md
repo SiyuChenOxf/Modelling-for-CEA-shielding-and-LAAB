@@ -2,11 +2,11 @@
 Modelling for cost effectiveness of shielding and LAAB-PrEP amongst immunocompromised people
 * Intervention group: LAAB-PrEP + certain % of shielding
 * Comparator group: shielding 
-## Cost-effectivness analysis based on sensitivity analysis
-We randomly sampled all parameters from big ranges listed in the template and generated a big matrix containing the corresponding inputs and economic & life-year outputs. We then plotted the cost-effectivness plane and willingness-to-pay curve. 
+## Cost-effectivness analysis 
+We randomly sampled all parameters from big ranges listed in the template and generated a big matrix containing the corresponding inputs and economic & life-year outputs. We then plotted the cost-effectivness plane and willingness-to-pay curve as shown in Fig 1. 
  * inputs: 'LAAB_PrEP_template.csv'
- * outputs: 'LAAB_PrEP_outputs.csv'
- * scripts: 'LAAB_PrEP_script.R'
+ * outputs: 'LAAB_PrEP_outputsnew.csv'
+ * scripts: 'script_Fig1.R'
 
 ## Scenario analysis
 We studied three scenarios defined by $\eta$: shielding fatigue and $\rho$: reduction in shielding due to protecton with LAAB-PrEP.
