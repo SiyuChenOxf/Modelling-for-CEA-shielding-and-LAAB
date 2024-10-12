@@ -9,7 +9,7 @@ We randomly sampled all parameters from big ranges listed in the template and ge
  * scripts: 'script_Fig1.R'
    
 ## Important parameters analysis
-We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi-way sensitivity for incremental cost, incremental LYG and ICER when cost of shielding is considered and is not considered, respectively. We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively. 
+We performed a one-way sensitivity analysis, two-way sensitivity analysis, multi-way sensitivity for incremental cost, incremental QALY and ICER when cost of shielding is considered and is not considered, respectively. We screened out the top 5 parameters in each of the three time horizons studied, e.g., 2 years, 5 years, and 10 years respectively. 
 
 One-way sensitivity analysis
  * outputs:
